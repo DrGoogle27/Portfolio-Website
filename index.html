@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Portfolio Website - DrGoogle@Work </title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+	<div id="header">
+		<div class="container">
+			<nav>
+				<img src="images/jLogo.jpg" class="logo">
+				<ul id="sidemenu">
+					<li ><a href="#header">Home</a></li>
+					<li ><a href="#about">About</a></li>
+					<li ><a href="#services">Services</a></li>
+					<li ><a href="#portfolio">Portfolio</a></li>
+					<li ><a href="#contact">Contact</a></li>
+					<i class="fa fa-times" onclick="closemenu()"></i>
+
+				</ul>
+				<i class="fa fa-bars" onclick="openmenu()"></i>
+
+			</nav>
+			<div class="header-text">
+				<p>Student</p>
+				<h1>Hi, I'm <br><span>Junior</span> <br>Msweli From <br>South Africa</h1>
+			</div>
+			
+
+		</div>
+
+	</div>
+
+	<!--another div for the section of About--->
+	<div id="about">
+		
+		<div class="container">
+			<div class="row">
+				<!--this will be for the first colunm-->
+				<div class="about-col1">
+					<img src="images/awards.jpg">
+				</div>
+				<!--this will be for the second colunm-->
+				<div class="about-col2">
+					<h1 class="sub-title">About Me</h1>
+					<p>I am a dedicated Information Technology student with strong
+							analytical and problem-solving skills, passionate about using data to
+							inform high-stakes decisions. My foundation in structured
+							programming, system design, and user interface development is
+							complemented by hands-on experience in leadership and academic
+							support. I am driven to apply data analysis techniques to serve
+							national interests through accurate reporting, predictive modeling, and
+							secure data interpretation. I bring discipline, integrity, and a strategic
+							mindset suited for the defence intelligence environment.</p>
+
+                    <div class="tab-titles">
+                    	<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    	<p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                    	<p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                    	<!--add lists-->
+                    	<ul>
+                    		<li><span>Current Status</span><br>Final Year Student<br>Student Leader<br></li>
+                    		<li><span>Cricket Profile</span><br><br>NWU First Team Player<br>Right-handed Batsman and Wicket Keeper</li>
+                    		<li><span>IT Skills</span><br>Structured and Object-
+																	Oriented Programming <br>Data Analysis &
+																	Visualisation (Excel,
+																	Python)<br>System Analysis and
+																	Design<br>Basic SQL & Database
+                                  Management<br>Web Development
+																	(HTML, CSS, JavaScript)<br> and <br>Troubleshooting &
+                                   Technical Support</li>
+                    	</ul>
+                    </div>
+                    <!---for Achievements--->
+                    <div class="tab-contents" id="achievements">
+                    	<!--add lists-->
+                    	<ul>
+                    		<li><span>2022-Current</span><br>NWU Cricket 1st Team</li>
+                    		<li><span>1st Year</span><br>Completed all modules in record time</li>
+                    		<li><span>2023</span><br>USSA's runner's up <br>M.O.M agaisnt VUT <br>M.O.M against DUT</li>
+                    		<li><span>Current</span><br>Sports Officer(2023/2024)<br>
+                    			USSA Student Forum<br>
+                    		and many more</li>
+                    	</ul>
+                    	<li><span>2023</span><br>Top 5 Academic Acheiver in residence</li>
+                    </div>
+                    <!---for education--->
+                    <div class="tab-contents" id="education">
+                    	<!--add lists-->
+                    	<ul>
+                    		<li><span>2023</span><br>Basic Python language</li>
+                    		<li><span>2023</span><br>Advanced C++ language</li>
+                    		<li><span>2024</span><br>Advanced C# language</li>
+                    		<li><span>2024</span><br>Advanced Java language</li>
+                    	</ul>
+                    </div>
+				</div>
+				
+			</div>
+
+			
+		</div>
+	</div>
+
+	<!----More---->
+	<div id="services">
+		<div class="container" >
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div>
+					<i class="fa fa-sign-language"></i>
+
+					<h2>Cricket Player</h2>
+					<p>At the top of the batting order,
+                     I relish the challenge of setting the tone for the innings. My focus is on building a strong foundation, accumulating runs with a solid technique and the ability to adapt to any bowling attack. But my skillset doesn't stop there. With a deceptive off-spin bowling style, I can also become a weapon during the opposition's innings.</p>
+                     <a href="#">learn more</a>
+				</div>
+				<div>
+					<i class="fa fa-desktop"></i>
+
+					<h2>IT Student</h2>
+					<p>Handling academics as a third-year IT student at North West University, I find a way to excel as a final year student,
+                    setting the tone with a solid study  technique. I bring a never-say-die attitude and a constant drive to improve</p>
+                     <a href="#">learn more</a>
+				</div>
+				<div>
+					<i class="fa fa-male"></i>
+
+					<h2>Student Leader</h2>
+					<p>As a Student Leader who served as a Sports Officer and a Vice Prim and Legal Officer,
+                    I'm passionate about promoting sports on campus and in the residence. On duty, however, I transform into a different kind of leader. As a Sports Officer, I set the tone with a solid leadership type, I bring a never-say-die attitude and a constant drive to improve my leadership skills.</p>
+                     <a href="#">learn more</a>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-------Portfolio-------->
+	<div id="portfolio">
+		<div class="container">
+			<h1 class="sub-title">My Work</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="images/Computer Networks.jpg">
+					<div class="layer">
+						<h3>Computer Networking</h3>
+						<p>With high demand with the constant growth of intenert services,Iot and
+							<br> remote work, network engineers are in demand</p>
+                       <a href="#"><i class="fa fa-external-link"></i></a>	
+					</div>	
+				</div>
+				<!---second pic-->
+				<div class="work">
+					<img src="images/mvp1.jpg">	
+					<div class="layer">
+						<h3>Top Performance From J Msweli</h3>
+						<p>With the stats of 8 wickets 7runs in 2inns, He takes him team to Finals</p>
+                       <a href="#"><i class="fa fa-external-link"></i></a>	
+					</div>	
+				</div>
+				<!---third pic--->
+				<div class="work">
+					<img src="images/Network topology.jpg">	
+					<div class="layer">
+						<h3>Network Topology/h3>
+						<p>The arrangment of the elements of a communication network that describes the arrangement of various various types of telecommunication networks</p>
+                       <a href="#"><i class="fa fa-external-link"></i></a>	
+					</div>	
+				</div>
+			</div>	
+			<a href="#" class="btn">See more</a>
+		</div>
+		
+
+	</div>
+	<!---Contact---->
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p> <i class="fa fa-paper-plane" ></i> 
+                     DrGoogle@Work.com</p>
+					<p><i class="fa fa-phone-square" ></i>
+                     074 822 6984</p>
+					<div class="social-icons">
+				
+				   <a href="https://github.com/DrGoogle27"><i class="fa fa-github"></i></a>
+				    <a href="https://github.com/DrGoogle27/first-website"><i class="fa fa-linkedin-square"></i><a/>
+
+					</div>
+					<a href="images/Junior Msweli CV.pdf" download class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="Email" name="email" placeholder="Your email" required>
+						<textarea name="Message" rows="6" placeholder="Your message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<span id="msg"></span>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright @ Junior. Made with <i class="fa fa-heart-o"></i>
+            by DrGoogle@Work</p>
+		</div>
+	</div>
+
+
+	<!--adding a JavaScript--->
+	<script >
+		var tablinks = document.getElementsByClassName("tab-links");
+		var = tabcontents = document.getElementsByClassName("tab-contents");
+		/*define the function of open tab*/
+		function opentab(tabname){
+			for(tablink of tablinks){
+				tablink.classList.remove("active-link");
+			}
+			for(tabcontent of tabcontents){
+				tabcontent.classList.remove("active-tab");
+			}
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+
+	</script>
+	<!--adding a JavaScript--->
+	<script>
+		var sidemenu = document.getElementById("sidemenu");
+		function openmenu(){
+			sidemenu.style.right = "0";
+		}
+		function closemenu(){
+			sidemenu.style.right = "-200px";
+		}
+
+	</script>
+	<!----script from gutHub for getting userInput---->
+	<script>
+	/*here add the script URL from the google sheet you deployed*/
+  const scriptURL = '<SCRIPT URL>'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Message sent successfully"
+      	setTimeout(function(){
+      	msg.innerHTML=""
+      },5000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
